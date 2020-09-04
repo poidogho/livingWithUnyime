@@ -3,18 +3,18 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   return (
-    <header id="header" class="fixed-top ">
-      <div class="container d-flex align-items-center">
-        <h1 class="logo mr-auto">
+    <header id="header" className="fixed-top">
+      <div className="container d-flex align-items-center">
+        <h1 className="logo mr-auto">
           <Link to="#">Living with Unyime</Link>
         </h1>
-        {/* <Link to="#" class="logo mr-auto">
-          <img src="" alt="Living with Unyime" class="img-fluid" />
+        {/* <Link to="#" className="logo mr-auto">
+          <img src="" alt="Living with Unyime" className="img-fluid" />
         </Link> */}
 
-        <nav class="nav-menu d-none d-lg-block">
+        <nav className="nav-menu d-none d-lg-block">
           <ul>
-            <li class="active">
+            <li className="active">
               <Link to="#">The Blog</Link>
             </li>
             <li>
@@ -32,7 +32,7 @@ export const Navbar = () => {
           </ul>
         </nav>
 
-        <a href="#" class="get-started-btn scrollto">
+        <a href="#" className="get-started-btn scrollto">
           Get Started
         </a>
       </div>
