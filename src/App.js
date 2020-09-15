@@ -6,6 +6,7 @@ import "./App.css";
 import NavBar from "./components/generalResources/Navbar";
 import Landing from "./components/landing";
 import Footer from "./components/generalResources/footer";
+import About from "./components/about";
 import AOS from "aos";
 
 function App() {
@@ -17,7 +18,15 @@ function App() {
     <Router>
       <div className="App">
         <NavBar />
-        <Landing />
+        <Switch>
+          <Route exact path="/">
+            <Landing />
+          </Route>
+          <Route exact path="/aboutMe">
+            <About />
+          </Route>
+        </Switch>
+
         <Footer />
       </div>
     </Router>

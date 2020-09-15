@@ -1854,3 +1854,12 @@ section {
     padding-top: 4px;
   }
 }
+
+.about-img {
+  color: white;
+  /* background-image: url("/assets/img/moveup.jpg"); */
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center -50%;
+}

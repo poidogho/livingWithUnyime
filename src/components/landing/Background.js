@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Background = () => {
   return (
@@ -18,18 +19,18 @@ const Background = () => {
                 Im here to share my experience with you.
               </h2>
               <div className="d-lg-flex">
-                <a href="#about" className="btn-get-started scrollto">
+                <Link to="/aboutMe" className="btn-get-started scrollto">
                   Join Me
-                </a>
-                <a
-                  href="https://www.youtube.com/watch?v=jDDaplaOz7Q"
+                </Link>
+                <Link
+                  to="https://www.youtube.com/watch?v=jDDaplaOz7Q"
                   className="venobox btn-watch-video"
                   data-vbtype="video"
                   data-autoplay="true"
                 >
                   {" "}
                   My Travels <i className="icofont-play-alt-2"></i>
-                </a>
+                </Link>
               </div>
             </div>
             <div
@@ -38,7 +39,7 @@ const Background = () => {
               data-aos-delay="200"
             >
               <img
-                src="assets/img/test.jpg"
+                src="assets/img/landing.jpg"
                 className="img-fluid animated"
                 alt=""
               />
