@@ -61,10 +61,7 @@ const about = () => {
       <br />
       <br />
       <br />
-      <br />
-      <br />
-      <br />
-      <br />
+
       <div className="container">
         <div style={{ textAlign: "left", fontStyle: "italic" }}>
           <h3>
@@ -136,11 +133,12 @@ const about = () => {
             <h3>
               <strong>My Love for Healthy living</strong>
               <p className="lead">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam
-                voluptatibus adipisci numquam blanditiis, molestiae quis
-                accusamus quia quas totam. Harum perspiciatis corrupti
-                necessitatibus iste architecto minima, repellendus et impedit
-                nisi.
+                I decided to spend my time cooking again because I'm really good
+                at it and it makes me happy. Cooking for me is a safe place to
+                spend my time. People always ask me, why are so happy while
+                cooking? Im like, "I dont know, it brings me so much joy". For
+                me, cooking is an art and I'll love to share my experience and
+                some of my health recipes with you.
               </p>
             </h3>
           </div>
