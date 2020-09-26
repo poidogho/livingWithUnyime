@@ -6,7 +6,7 @@ export const Navbar = () => {
     <header id="header" className="fixed-top">
       <div className="container d-flex align-items-center">
         <h1 className="logo mr-auto">
-          <Link to="#">Living with Unyime</Link>
+          <Link to="/">Living with Unyime</Link>
         </h1>
         {/* <Link to="#" className="logo mr-auto">
           <img src="" alt="Living with Unyime" className="img-fluid" />
@@ -18,7 +18,7 @@ export const Navbar = () => {
               <Link to="#">The Blog</Link>
             </li>
             <li>
-              <Link to="#">Destinations</Link>
+              <Link to="/destinations">Destinations</Link>
             </li>
             <li>
               <Link to="#">Inspiration & Tips</Link>
