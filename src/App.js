@@ -7,7 +7,10 @@ import NavBar from "./components/generalResources/Navbar";
 import Landing from "./components/landing";
 import Footer from "./components/generalResources/footer";
 import About from "./components/about";
+
+// destinations
 import Destinations from "./components/destinations/home";
+import PuertoRico from "./components/destinations/pRico";
 import AOS from "aos";
 
 function App() {
@@ -28,6 +31,9 @@ function App() {
           </Route>
           <Route exact path="/destinations">
             <Destinations />
+          </Route>
+          <Route exact path="/destinations/puerto-rico">
+            <PuertoRico />
           </Route>
         </Switch>
 

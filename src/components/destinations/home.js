@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const home = () => {
   return (
@@ -44,6 +45,20 @@ const home = () => {
       </div>
       <div className="container">
         <h1>
+          <b>North America</b>
+        </h1>
+        <div className="p-rico">
+          <br />
+          <br />
+          <br />
+          <Link to="/destinations/puerto-rico">
+            <h1 style={{ backgroundColor: "#ECF0F1 ", width: "300px" }}>
+              <b> Puerto Rico</b>
+            </h1>
+          </Link>
+        </div>
+        <br />
+        <h1>
           <b>Asia</b>
         </h1>
         <div className="asia">
@@ -58,6 +73,26 @@ const home = () => {
         <h1>
           <b>Middle East</b>
         </h1>
+        <div className="dubai">
+          <br />
+          <br />
+          <br />
+          <h1 style={{ backgroundColor: "#ECF0F1 ", width: "300px" }}>
+            <b> Dubai</b>
+          </h1>
+        </div>
+        <br />
+        <h1>
+          <b>Europe</b>
+        </h1>
+        <div className="brussels">
+          <br />
+          <br />
+          <br />
+          <h1 style={{ backgroundColor: "#ECF0F1 ", width: "300px" }}>
+            <b> Brussels</b>
+          </h1>
+        </div>
       </div>
     </div>
   );
