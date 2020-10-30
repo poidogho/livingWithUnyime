@@ -4,15 +4,14 @@ services:
 
 before_install:
   - docker build -t orezimeteaching/livingwithunyime -f Dockerfile.dev .
-
-deploy:
-  provider: elasticbeanstalk
-  region: "us-east-2"
-  app: "reactApp"
-  env: "Reactapp-env"
-  bucket_name: "elasticbeanstalk-us-east-2-565826722560"
-  bucket_path: "reactApp"
-  on:
-    branch: master
-  access_key_id: $AWS_ACCESS_KEY
-  secret_access_key: $AWS_SECRET_KEY
+# deploy:
+#   provider: elasticbeanstalk
+#   region: "us-east-2"
+#   app: "reactApp"
+#   env: "Reactapp-env"
+#   bucket_name: "elasticbeanstalk-us-east-2-565826722560"
+#   bucket_path: "reactApp"
+#   on:
+#     branch: master
+#   access_key_id: $AWS_ACCESS_KEY
+#   secret_access_key: $AWS_SECRET_KEY
