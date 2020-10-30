@@ -4,6 +4,9 @@ services:
 
 before_install:
   - docker build -t orezimeteaching/livingwithunyime -f Dockerfile.dev .
+
+script:
+  - docker run -e CI=true orezimeteaching/livingwithunyime npm test -- --coverage
 # deploy:
 #   provider: elasticbeanstalk
 #   region: "us-east-2"
