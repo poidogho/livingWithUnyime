@@ -6,7 +6,7 @@ class HealthLiving extends Component {
       <section id="portfolio" class="portfolio">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
-            <h2>Healthy Living</h2>
+            <h2>Healthy Living Always</h2>
             <p>
               Learn Why A Balanced Diet Is Important And How To Achieve A
               Healthy Diet. Know More! A Balanced Diet Helps Control Blood
